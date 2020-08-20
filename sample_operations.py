@@ -18,10 +18,13 @@ baudRate=500000
 inputBufferSize=100000
 ser=serial.Serial(acport, baudRate)
 
-def accboard():
-	if (ser.isOpen() == False):
-		ser.open()
-	print("Serial port is open now")
+# def accboard():
+# 	if (ser.isOpen() == False):
+# 		ser.open()
+# 	print("Serial port is open now")
+if (ser.isOpen() == False):
+	ser.open()
+print("Serial port is open now")
 
 
 def readDetTemperatures(ser):
