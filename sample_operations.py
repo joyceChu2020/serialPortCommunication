@@ -130,6 +130,6 @@ C=collectData.collectData(ser,1,[1],actdet,90)
 
 plt.show()
 plt.figure()
-plt.plot(abs(np.squeeze(C[0][0][15][0])))
+plt.plot(abs(np.squeeze(C[0][0][10][0])))
 plt.show()
 
